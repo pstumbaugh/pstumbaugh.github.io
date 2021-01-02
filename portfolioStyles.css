@@ -193,23 +193,23 @@ span.answer {
   border-radius: 30%;
 }
 
-.buttonsImageCode:visited {
+#buttonsImageCode:visited {
   color: transparent;
   background-color: transparent;
 }
 
-.buttonsImageCode:hover {
+#buttonsImageCode:hover {
   opacity: .8;
   color: transparent;
   background-color: transparent;
 }
 
-.buttonsImageCode2:visited {
+#buttonsImageCode2:visited {
   color: transparent;
   background-color: transparent;
 }
 
-.buttonsImageCode2:hover {
+#buttonsImageCode2:hover {
   opacity: .8;
   color: transparent;
   background-color: transparent;
