@@ -204,6 +204,17 @@ span.answer {
   background-color: transparent;
 }
 
+.buttonsImageCode2:visited {
+  color: transparent;
+  background-color: transparent;
+}
+
+.buttonsImageCode2:hover {
+  opacity: .8;
+  color: transparent;
+  background-color: transparent;
+}
+
 .footerIcon {
   text-align: center;
   width: 35px;
