@@ -1,5 +1,6 @@
 window.onscroll = function() {myFunction(), myFunction2()};
 
+//if delete, change "mainPicture" class in CSS visability
 function myFunction() {
   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
     document.getElementById("code").className = "slideUp";
@@ -10,7 +11,8 @@ function myFunction() {
 }
 
 function myFunction2() {
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-      document.getElementById("myImage").className = "slideUp";
+    if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
+      document.getElementById("resumeTable1").parentNode.className = "slideUp";
+      document.getElementById("resumeTable2").parentNode.className = "slideUp";
     }
   }
