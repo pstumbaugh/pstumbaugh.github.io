@@ -297,38 +297,11 @@ span.answer {
   visibility: hidden;
 }
 
+.revealClass {
+  visibility: hidden;
+}
 
 .resumeTable {
-  position: relative;
-  border-top-left-radius: 10px;
-  width: 600px;
-  margin: auto auto;
-  padding: 20px;
-  font-size: 30px;
-  background: rgb(219, 219, 219);
-  height: auto;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 13px;
-  line-height: 13px;
-}
-
-#resumeTable1 {
-  position: relative;
-  border-top-left-radius: 10px;
-  width: 600px;
-  margin: auto auto;
-  padding: 20px;
-  font-size: 30px;
-  background: rgb(219, 219, 219);
-  height: auto;
-  font-family: 'Montserrat', sans-serif;
-  text-align: left;
-  font-size: 13px;
-  line-height: 13px;
-}
-
-#resumeTable2 {
   position: relative;
   border-top-left-radius: 10px;
   width: 600px;
@@ -473,12 +446,8 @@ span.answer {
   margin: auto auto;
 }
 
-.codeTableContainerOLD{
-  position: relative;
-  margin: auto auto;
-  background: rgb(97, 97, 97);
-  border-radius: 15px;
-  padding: 5px;
+.codeExamplesClassReveal {
+  visibility: hidden;
 }
 
 .codeTextBody {
