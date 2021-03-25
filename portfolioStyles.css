@@ -72,7 +72,7 @@
   background-color: #111E2A;
   padding-top: 20px;
   padding-bottom: 50px;
-  height: 2090px;
+  height: 2450px;
   width: 1000px;
   margin: auto auto;
   border-top-left-radius: 10px;
@@ -424,7 +424,7 @@ span.answer {
 
 #githubPortfolioLink {
   position: absolute;
-  top: 3526px;
+  top: 3890px;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #c9984C;
