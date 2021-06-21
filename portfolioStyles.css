@@ -34,8 +34,16 @@
 .aboutContainer {
     width: 100vw;
     height: 100vh;
-
     background-color: #111e2a;
+}
+
+#aboutContainerTopRotated {
+    position: absolute;
+    margin-top: -100px;
+    width: 150vw;
+    height: 50vh;
+    z-index: -100;
+    transform: rotate(-5deg);
 }
 
 #about {
