@@ -1,3 +1,4 @@
+/*
 window.onscroll = function () {
     reveal1(),
         reveal2(),
@@ -92,21 +93,7 @@ function reveal7() {
         document.getElementById("mapReveal").className = "slideUp";
     }
 }
-
-window.onscroll = function () {
-    myFunction();
-};
-
-var navbar = document.getElementsByClassName("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
+*/
 
 //displays the welcome page text and up arrows when user loads page
 function welcomePageDisplay() {
