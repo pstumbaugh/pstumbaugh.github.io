@@ -98,8 +98,7 @@ function reveal7() {
 window.onscroll = function () {
     myFunction();
 };
-
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementsByClassName("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
@@ -114,12 +113,16 @@ function myFunction() {
 function welcomePageDisplay() {
     //immediately fade in the "about" section
     document.getElementById("about").className = "fade-in-image";
+    delayedFadeIn("swipeUpArrows", 2000);
+    delayedFadeIn("navbar", 1000);
+}
 
-    //after 2 seconds, fade in the up arrows
-    var delayInMilliseconds = 2000; //1 second
+//delays the fade in of an item.
+//Uses the item's ID (as string) and time in milliseconds for delay
+function delayedFadeIn(itemClassIdString, delayTimeMilliseconds) {
     setTimeout(function () {
-        document.getElementById("swipeUpArrows").className = "fade-in-image";
-    }, delayInMilliseconds);
+        document.getElementById(itemClassIdString).className = "fade-in-image";
+    }, delayTimeMilliseconds);
 }
 
 //start the page at the bottom instead of the top
