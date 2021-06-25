@@ -7,7 +7,7 @@ class NavBar extends React.Component {
     }
 }
 
-ReactDOM.render(<NavBar />, document.getElementsById("navbar"));
+ReactDOM.render(<a>TEST TEST TEST</a>, document.getElementsById("navbar"));
 
 window.onscroll = function () {
     myFunction();

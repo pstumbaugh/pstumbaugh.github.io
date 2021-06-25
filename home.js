@@ -95,6 +95,21 @@ function reveal7() {
 }
 */
 
+window.onscroll = function () {
+    myFunction();
+};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
+
 //displays the welcome page text and up arrows when user loads page
 function welcomePageDisplay() {
     //immediately fade in the "about" section
