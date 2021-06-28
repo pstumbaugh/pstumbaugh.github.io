@@ -114,7 +114,7 @@ function welcomePageDisplay() {
     //immediately fade in the "about" section
     document.getElementById("about").className = "fade-in-image";
     delayedFadeIn("swipeUpArrows", 2000);
-    delayedFadeIn("navbar", 1000);
+    delayedFadeIn("navbar", 5000);
 }
 
 //delays the fade in of an item.
